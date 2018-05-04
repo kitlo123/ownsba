@@ -75,15 +75,18 @@
 			</li>
 			<li>
 			<script>
-				function d.w() {
-					d.w()=document.write();
-				}
-				function time() {
-					x=0;
-					while x=0
-					d.w(Date());
-				}	
-				</script>
+			function dw(line) {
+				document.write(line + "<br>")
+						}
+			var now = new Date()
+			dw( "Year: " + now.getYear() )
+			dw( "Month: " + now.getMonth() )
+			dw( "Date: " + now.getDate() )
+			dw( "Day: " + now.getDay() )
+			dw( "Hours: " + now.getHours() )
+			dw( "Minutes: " + now.getMinutes() )
+			dw( "Seconds: " + now.getSeconds() )
+</script>
 			</li>	
 		</ul>     
 		</nav><!-- #topnav -->
