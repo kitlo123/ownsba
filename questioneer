@@ -1,0 +1,12 @@
+wyQuiz.survey = [
+  {
+    "serial": 0,
+    "questionText": "政府派錢六千元，我會立即search廉價機票，計劃去旅行",
+    "imagePath": "images/001.png",
+    "options": [
+      {"optionScore": 3, "optionText":"很同意"},
+      {"optionScore": 2, "optionText":"較同意"},
+      {"optionScore": 1, "optionText":"較反對"},
+      {"optionScore": 0, "optionText":"很反對"},
+    ]
+  },
