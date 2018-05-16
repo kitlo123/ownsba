@@ -1,0 +1,93 @@
+	<meta charset="utf-8">
+	<title>ABC網上學習平台</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+  ================================================== -->
+	<link rel="stylesheet" href="stylesheets/base.css">
+	<link rel="stylesheet" href="stylesheets/skeleton.css">
+	<link rel="stylesheet" href="stylesheets/layout.css">
+    <link rel="stylesheet" href="stylesheets/flexslider.css">
+    <link rel="stylesheet" href="stylesheets/prettyPhoto.css">
+    
+    <!-- CSS
+  ================================================== -->
+ 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+    <script src="js/jquery.flexslider-min.js"></script>
+    <script src="js/scripts.js"></script>
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+
+</head>
+<body class="wrap">
+
+
+
+	<!-- Primary Page Layout
+	================================================== -->
+		<script type="text/javascript">
+		window.onload=function(){
+		setInterval(function(){
+		var date=new Date();
+		var year=date.getFullYear(); //获取当前年份
+		var mon=date.getMonth()+1; //获取当前月份
+		var da=date.getDate(); //获取当前日
+		var day=date.getDay(); //获取当前星期几
+		var h=date.getHours(); //获取小时
+		var m=date.getMinutes(); //获取分钟
+		var s=date.getSeconds(); //获取秒
+		var d=document.getElementById('Date'); 
+		d.innerHTML='現在時間為:'+year+'年'+mon+'月'+da+'日'+'星期'+day+' '+h+':'+m+':'+s;
+		},1000) //http://www.jb51.net/article/81038.htm
+		}
+		</script>
+	<header id="header" class="site-header" role="banner">
+    <div id="header-inner" class="container sixteen columns over">
+    <hgroup class="one-third column alpha">
+    <h1 id="site-title" class="site-title">
+    <a href="index.html" id="logo"><img src="ABC.png" alt="Icebrrrg logo"/></a>
+	<img src="subtitle.png" alt="Icebrrrg logo"/>
+    </h1>
+	<div id="Date">
+	</div>
+    </hgroup>
+    <nav id="main-nav" class="two thirds column omega">
+    <ul id="main-nav-menu" class="nav-menu">
+	<li id="menu-item-1">
+    <a href="index.html">首頁</a>
+    </li>
+    <li id="menu-item-2">
+    <a href="three-column.html">學習資源</a>
+    </li>
+    <li id="menu-item-3">
+    <a href="sidebar-right.html">網頁指南</a>
+    </li>
+    <li id="menu-item-4">
+    <a href="sidebar-left.html">名師秘及</a>
+    </li>
+    <li id="menu-item-5">
+    <a href="full-width.html">網上試題學習平台</a>
+    </li>
+	<li id="menu-item-7">
+    <a href="contact.html">學術論壇</a>
+    <li id="menu-item-8">
+    <a href="contact.html">聯絡我們</a>
+    </li>
+    </ul>
+    </nav>
+    </div>
+    </header>
